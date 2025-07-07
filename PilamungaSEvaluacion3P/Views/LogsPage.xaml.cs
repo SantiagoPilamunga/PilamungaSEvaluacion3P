@@ -21,4 +21,9 @@ public partial class LogsPage : ContentPage
             LogLabel.Text = "No hay logs aún.";
         }
     }
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        CargarLogs();
+    }
 }

@@ -34,5 +34,13 @@ namespace PilamungaSEvaluacion3P.ViewModels
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
+        public async void CargarClientes()
+        {
+            var lista = await repo.GetClientesAsync();
+            Clientes.Clear();
+            foreach (var cliente in lista)
+                Clientes.Add(cliente);
+        }
+
     }
 }
