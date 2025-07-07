@@ -4,7 +4,7 @@
              x:Class="PilamungaSEvaluacion3P.Views.ClientesPage"
              Title="ClientesPage">
     <ContentPage.BindingContext>
-        <viewModels:ClientesViewModel />
+        <ViewModels:ClientesViewModel />
     </ContentPage.BindingContext>
 
     <CollectionView ItemsSource="{Binding Clientes}">

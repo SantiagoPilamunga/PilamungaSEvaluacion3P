@@ -7,9 +7,10 @@
     Shell.FlyoutBehavior="Disabled"
     Title="PilamungaSEvaluacion3P">
 
-    <ShellContent
-        Title="Registro"
-        ContentTemplate="{DataTemplate local:RegistroPage}"
-        Route="RegistroPage" />
+    <TabBar>
+        <ShellContent Title="Registro" ContentTemplate="{DataTemplate local:RegistroPage}" />
+        <ShellContent Title="Clientes" ContentTemplate="{DataTemplate local:ClientesPage}" />
+        <ShellContent Title="Logs" ContentTemplate="{DataTemplate local:LogsPage}" />
+    </TabBar>
 
 </Shell>
