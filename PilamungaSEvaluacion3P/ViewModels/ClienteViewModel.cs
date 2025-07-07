@@ -53,6 +53,7 @@ namespace PilamungaSEvaluacion3P.ViewModels
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
+
     }
 }

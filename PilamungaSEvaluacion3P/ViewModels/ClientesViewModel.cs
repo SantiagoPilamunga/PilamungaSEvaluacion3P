@@ -32,6 +32,7 @@ namespace PilamungaSEvaluacion3P.ViewModels
                 Clientes.Add(cliente);
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
+
     }
 }

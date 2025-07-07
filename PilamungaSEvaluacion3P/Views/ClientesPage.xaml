@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:PilamungaSEvaluacion3P.ViewModels"
              x:Class="PilamungaSEvaluacion3P.Views.ClientesPage"
              Title="ClientesPage">
     <ContentPage.BindingContext>
-        <ViewModels:ClientesViewModel />
+        <viewModels:ClientesViewModel />
     </ContentPage.BindingContext>
 
     <CollectionView ItemsSource="{Binding Clientes}">
