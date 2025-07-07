@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:PilamungaSEvaluacion3P.ViewModels"
              x:Class="PilamungaSEvaluacion3P.Views.RegistroPage"
-             Title="RegistroPage">
+             Title="RegistroPage SantiagoPilamunga 23/12/2004">
     <ContentPage.BindingContext>
         <viewModels:ClienteViewModel />
     </ContentPage.BindingContext>
